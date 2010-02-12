@@ -1,10 +1,4 @@
-from django.utils import translation
-from django.utils.translation import ugettext as _
-
-from babel import Locale
-from babel.support import Format
 import jinja2
-from jinja2.exceptions import FilterArgumentError
 
 from jingo import register, env
 
